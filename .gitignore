@@ -1,0 +1,38 @@
+# Data - proprietary, never commit
+data/
+docs/sponsor_materials/
+outputs/
+
+# Generated presentations and papers
+presentations/
+
+# Claude Code local files (memory, plans, notes, etc)
+.claude/
+
+# Personal planning
+PLAN.md
+OLD_README.md
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Python (if anyone adds it)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Intermediate Parquet caches
+*.parquet
