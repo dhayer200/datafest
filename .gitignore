@@ -1,7 +1,6 @@
 # Data - proprietary, never commit
 data/
 docs/sponsor_materials/
-outputs/
 
 # Generated presentations and papers
 presentations/
@@ -12,6 +11,7 @@ presentations/
 # Personal planning
 PLAN.md
 OLD_README.md
+.gitignore
 
 # R
 .Rhistory
@@ -20,6 +20,9 @@ OLD_README.md
 .Ruserdata
 .Rproj.user/
 *.Rproj
+scripts/*.R
+*.R
+*cheatsheet*
 
 # macOS
 .DS_Store
