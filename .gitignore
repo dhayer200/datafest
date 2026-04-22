@@ -39,3 +39,5 @@ venv/
 
 # Intermediate Parquet caches
 *.parquet
+
+.gitignore
