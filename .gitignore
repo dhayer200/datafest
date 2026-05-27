@@ -2,6 +2,11 @@
 data/
 docs/sponsor_materials/
 
+# Serialized data caches derived from proprietary data - never commit
+# (the two plot_*.png charts in outputs/ are safe and intentionally tracked)
+outputs/*.pkl
+outputs/*.rds
+
 # Generated presentations and papers
 presentations/
 
